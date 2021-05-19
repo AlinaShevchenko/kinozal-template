@@ -63,3 +63,22 @@
 
   margin-right: 0;
 }
+
+.panel-info {
+  border: none;
+  background-color: darken($color-light, 7%);
+  margin-bottom: 30px;
+}
+
+.panel-info>.panel-heading {
+  color: $color-light;
+  background-color: $color-accent;
+  border: none;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+}
+
+.penal-body {
+  border: 1 solid $color-gray;
+  border-radius: 0 0 4px 4px;
+}

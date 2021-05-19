@@ -1,4 +1,4 @@
-.header {
+.header, .main, .left-sidebar {
   margin-bottom: 80px;
 }
 
@@ -38,6 +38,25 @@
   margin-right: 0;
 }
 
+.panel-info {
+  border: none;
+  background-color: #ededed;
+  margin-bottom: 30px;
+}
+
+.panel-info > .panel-heading {
+  color: #ffffff;
+  background-color: #df8a13;
+  border: none;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+}
+
+.penal-body {
+  border: 1 solid #dddddd;
+  border-radius: 0 0 4px 4px;
+}
+
 html {
   overflow-y: scroll;
   font-size: 16px;
@@ -55,6 +74,12 @@ a {
 a:hover, a:focus {
   text-decoration: none;
   color: #df8a13;
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  margin-top: -7.5px;
+  font-size: 3rem;
 }
 
 .header-logo {
@@ -77,6 +102,19 @@ a:hover, a:focus {
   letter-spacing: 0.2em;
   color: #ffffff;
   font-size: 1.15rem;
+}
+
+.left-sidebar .panel:last-of-type {
+  margin-bottom: 0;
+}
+
+.vertical-slider {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.vertical-slider img {
+  width: 100%;
 }
 
 @media (min-width: 576px) {
